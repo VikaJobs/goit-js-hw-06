@@ -11,6 +11,7 @@ function formSubmit(event) {
   };
   if (email === "" || password === "") {
     alert("Все поля должны быть заполнены");
+    return;
   }
   console.log(formData);
 
